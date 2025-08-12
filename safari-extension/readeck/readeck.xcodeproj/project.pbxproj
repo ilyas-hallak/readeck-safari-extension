@@ -1,0 +1,985 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D27D2AF2E4B6A84004B26F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D27D2AE2E4B6A84004B26F8 /* AppDelegate.swift */; };
+		5D27D2B12E4B6A84004B26F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D27D2B02E4B6A84004B26F8 /* SceneDelegate.swift */; };
+		5D27D2B42E4B6A84004B26F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D2B22E4B6A84004B26F8 /* LaunchScreen.storyboard */; };
+		5D27D2B72E4B6A84004B26F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D2B52E4B6A84004B26F8 /* Main.storyboard */; };
+		5D27D2C02E4B6A85004B26F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D27D2BF2E4B6A85004B26F8 /* AppDelegate.swift */; };
+		5D27D2C32E4B6A85004B26F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D2C12E4B6A85004B26F8 /* Main.storyboard */; };
+		5D27D2CB2E4B6A85004B26F8 /* readeck Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5D27D2CA2E4B6A85004B26F8 /* readeck Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5D27D2D52E4B6A85004B26F8 /* readeck Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5D27D2D42E4B6A85004B26F8 /* readeck Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5D27D2DB2E4B6A85004B26F8 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D29E2E4B6A83004B26F8 /* Main.html */; };
+		5D27D2DC2E4B6A85004B26F8 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D29E2E4B6A83004B26F8 /* Main.html */; };
+		5D27D2DD2E4B6A85004B26F8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D2A02E4B6A83004B26F8 /* Icon.png */; };
+		5D27D2DE2E4B6A85004B26F8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D2A02E4B6A83004B26F8 /* Icon.png */; };
+		5D27D2DF2E4B6A85004B26F8 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D2A12E4B6A83004B26F8 /* Style.css */; };
+		5D27D2E02E4B6A85004B26F8 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D2A12E4B6A83004B26F8 /* Style.css */; };
+		5D27D2E12E4B6A85004B26F8 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D2A22E4B6A83004B26F8 /* Script.js */; };
+		5D27D2E22E4B6A85004B26F8 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D2A22E4B6A83004B26F8 /* Script.js */; };
+		5D27D2E32E4B6A85004B26F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D27D2A32E4B6A83004B26F8 /* ViewController.swift */; };
+		5D27D2E42E4B6A85004B26F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D27D2A32E4B6A83004B26F8 /* ViewController.swift */; };
+		5D27D2E52E4B6A85004B26F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D2A42E4B6A84004B26F8 /* Assets.xcassets */; };
+		5D27D2E62E4B6A85004B26F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D2A42E4B6A84004B26F8 /* Assets.xcassets */; };
+		5D27D2E72E4B6A85004B26F8 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D27D2A62E4B6A84004B26F8 /* SafariWebExtensionHandler.swift */; };
+		5D27D2E82E4B6A85004B26F8 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D27D2A62E4B6A84004B26F8 /* SafariWebExtensionHandler.swift */; };
+		5D27D3012E4B6A85004B26F8 /* dist in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D2FA2E4B6A85004B26F8 /* dist */; };
+		5D27D3022E4B6A85004B26F8 /* icon48.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D2FB2E4B6A85004B26F8 /* icon48.png */; };
+		5D27D3032E4B6A85004B26F8 /* icon96.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D2FC2E4B6A85004B26F8 /* icon96.png */; };
+		5D27D3042E4B6A85004B26F8 /* action in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D2FD2E4B6A85004B26F8 /* action */; };
+		5D27D3052E4B6A85004B26F8 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D2FE2E4B6A85004B26F8 /* manifest.json */; };
+		5D27D3062E4B6A85004B26F8 /* settings.html in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D2FF2E4B6A85004B26F8 /* settings.html */; };
+		5D27D3072E4B6A85004B26F8 /* logo.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D3002E4B6A85004B26F8 /* logo.svg */; };
+		5D27D3082E4B6A85004B26F8 /* dist in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D2FA2E4B6A85004B26F8 /* dist */; };
+		5D27D3092E4B6A85004B26F8 /* icon48.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D2FB2E4B6A85004B26F8 /* icon48.png */; };
+		5D27D30A2E4B6A85004B26F8 /* icon96.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D2FC2E4B6A85004B26F8 /* icon96.png */; };
+		5D27D30B2E4B6A85004B26F8 /* action in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D2FD2E4B6A85004B26F8 /* action */; };
+		5D27D30C2E4B6A85004B26F8 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D2FE2E4B6A85004B26F8 /* manifest.json */; };
+		5D27D30D2E4B6A85004B26F8 /* settings.html in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D2FF2E4B6A85004B26F8 /* settings.html */; };
+		5D27D30E2E4B6A85004B26F8 /* logo.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D3002E4B6A85004B26F8 /* logo.svg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D27D2CC2E4B6A85004B26F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D27D2982E4B6A83004B26F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D27D2C92E4B6A85004B26F8;
+			remoteInfo = "readeck Extension (iOS)";
+		};
+		5D27D2D62E4B6A85004B26F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D27D2982E4B6A83004B26F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D27D2D32E4B6A85004B26F8;
+			remoteInfo = "readeck Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5D27D2EE2E4B6A85004B26F8 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5D27D2CB2E4B6A85004B26F8 /* readeck Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D27D2F52E4B6A85004B26F8 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5D27D2D52E4B6A85004B26F8 /* readeck Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5D27D29F2E4B6A83004B26F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		5D27D2A02E4B6A83004B26F8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		5D27D2A12E4B6A83004B26F8 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		5D27D2A22E4B6A83004B26F8 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		5D27D2A32E4B6A83004B26F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D27D2A42E4B6A84004B26F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D27D2A62E4B6A84004B26F8 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		5D27D2AB2E4B6A84004B26F8 /* readeck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = readeck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D27D2AE2E4B6A84004B26F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D27D2B02E4B6A84004B26F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5D27D2B32E4B6A84004B26F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D27D2B62E4B6A84004B26F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D27D2B82E4B6A85004B26F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D27D2BD2E4B6A85004B26F8 /* readeck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = readeck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D27D2BF2E4B6A85004B26F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D27D2C22E4B6A85004B26F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D27D2C42E4B6A85004B26F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D27D2C52E4B6A85004B26F8 /* readeck.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = readeck.entitlements; sourceTree = "<group>"; };
+		5D27D2CA2E4B6A85004B26F8 /* readeck Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "readeck Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D27D2CF2E4B6A85004B26F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D27D2D42E4B6A85004B26F8 /* readeck Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "readeck Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D27D2D92E4B6A85004B26F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D27D2DA2E4B6A85004B26F8 /* readeck.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = readeck.entitlements; sourceTree = "<group>"; };
+		5D27D2FA2E4B6A85004B26F8 /* dist */ = {isa = PBXFileReference; lastKnownFileType = folder; name = dist; path = ../../../addon/dist; sourceTree = "<group>"; };
+		5D27D2FB2E4B6A85004B26F8 /* icon48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon48.png; path = ../../../addon/icon48.png; sourceTree = "<group>"; };
+		5D27D2FC2E4B6A85004B26F8 /* icon96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon96.png; path = ../../../addon/icon96.png; sourceTree = "<group>"; };
+		5D27D2FD2E4B6A85004B26F8 /* action */ = {isa = PBXFileReference; lastKnownFileType = folder; name = action; path = ../../../addon/action; sourceTree = "<group>"; };
+		5D27D2FE2E4B6A85004B26F8 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../../addon/manifest.json; sourceTree = "<group>"; };
+		5D27D2FF2E4B6A85004B26F8 /* settings.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = settings.html; path = ../../../addon/settings.html; sourceTree = "<group>"; };
+		5D27D3002E4B6A85004B26F8 /* logo.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = logo.svg; path = ../../../addon/logo.svg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D27D2A82E4B6A84004B26F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D27D2BA2E4B6A85004B26F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D27D2C72E4B6A85004B26F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D27D2D12E4B6A85004B26F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D27D2972E4B6A83004B26F8 = {
+			isa = PBXGroup;
+			children = (
+				5D27D29C2E4B6A83004B26F8 /* Shared (App) */,
+				5D27D2A52E4B6A84004B26F8 /* Shared (Extension) */,
+				5D27D2AD2E4B6A84004B26F8 /* iOS (App) */,
+				5D27D2BE2E4B6A85004B26F8 /* macOS (App) */,
+				5D27D2CE2E4B6A85004B26F8 /* iOS (Extension) */,
+				5D27D2D82E4B6A85004B26F8 /* macOS (Extension) */,
+				5D27D2AC2E4B6A84004B26F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D27D29C2E4B6A83004B26F8 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				5D27D2A32E4B6A83004B26F8 /* ViewController.swift */,
+				5D27D2A42E4B6A84004B26F8 /* Assets.xcassets */,
+				5D27D29D2E4B6A83004B26F8 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		5D27D29D2E4B6A83004B26F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5D27D29E2E4B6A83004B26F8 /* Main.html */,
+				5D27D2A02E4B6A83004B26F8 /* Icon.png */,
+				5D27D2A12E4B6A83004B26F8 /* Style.css */,
+				5D27D2A22E4B6A83004B26F8 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5D27D2A52E4B6A84004B26F8 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				5D27D2F92E4B6A85004B26F8 /* Resources */,
+				5D27D2A62E4B6A84004B26F8 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		5D27D2AC2E4B6A84004B26F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D27D2AB2E4B6A84004B26F8 /* readeck.app */,
+				5D27D2BD2E4B6A85004B26F8 /* readeck.app */,
+				5D27D2CA2E4B6A85004B26F8 /* readeck Extension.appex */,
+				5D27D2D42E4B6A85004B26F8 /* readeck Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D27D2AD2E4B6A84004B26F8 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				5D27D2AE2E4B6A84004B26F8 /* AppDelegate.swift */,
+				5D27D2B02E4B6A84004B26F8 /* SceneDelegate.swift */,
+				5D27D2B22E4B6A84004B26F8 /* LaunchScreen.storyboard */,
+				5D27D2B52E4B6A84004B26F8 /* Main.storyboard */,
+				5D27D2B82E4B6A85004B26F8 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		5D27D2BE2E4B6A85004B26F8 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				5D27D2BF2E4B6A85004B26F8 /* AppDelegate.swift */,
+				5D27D2C12E4B6A85004B26F8 /* Main.storyboard */,
+				5D27D2C42E4B6A85004B26F8 /* Info.plist */,
+				5D27D2C52E4B6A85004B26F8 /* readeck.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		5D27D2CE2E4B6A85004B26F8 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				5D27D2CF2E4B6A85004B26F8 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		5D27D2D82E4B6A85004B26F8 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				5D27D2D92E4B6A85004B26F8 /* Info.plist */,
+				5D27D2DA2E4B6A85004B26F8 /* readeck.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		5D27D2F92E4B6A85004B26F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5D27D2FA2E4B6A85004B26F8 /* dist */,
+				5D27D2FB2E4B6A85004B26F8 /* icon48.png */,
+				5D27D2FC2E4B6A85004B26F8 /* icon96.png */,
+				5D27D2FD2E4B6A85004B26F8 /* action */,
+				5D27D2FE2E4B6A85004B26F8 /* manifest.json */,
+				5D27D2FF2E4B6A85004B26F8 /* settings.html */,
+				5D27D3002E4B6A85004B26F8 /* logo.svg */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D27D2AA2E4B6A84004B26F8 /* readeck (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D27D2EF2E4B6A85004B26F8 /* Build configuration list for PBXNativeTarget "readeck (iOS)" */;
+			buildPhases = (
+				5D27D2A72E4B6A84004B26F8 /* Sources */,
+				5D27D2A82E4B6A84004B26F8 /* Frameworks */,
+				5D27D2A92E4B6A84004B26F8 /* Resources */,
+				5D27D2EE2E4B6A85004B26F8 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D27D2CD2E4B6A85004B26F8 /* PBXTargetDependency */,
+			);
+			name = "readeck (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "readeck (iOS)";
+			productReference = 5D27D2AB2E4B6A84004B26F8 /* readeck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D27D2BC2E4B6A85004B26F8 /* readeck (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D27D2F62E4B6A85004B26F8 /* Build configuration list for PBXNativeTarget "readeck (macOS)" */;
+			buildPhases = (
+				5D27D2B92E4B6A85004B26F8 /* Sources */,
+				5D27D2BA2E4B6A85004B26F8 /* Frameworks */,
+				5D27D2BB2E4B6A85004B26F8 /* Resources */,
+				5D27D2F52E4B6A85004B26F8 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D27D2D72E4B6A85004B26F8 /* PBXTargetDependency */,
+			);
+			name = "readeck (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "readeck (macOS)";
+			productReference = 5D27D2BD2E4B6A85004B26F8 /* readeck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D27D2C92E4B6A85004B26F8 /* readeck Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D27D2EB2E4B6A85004B26F8 /* Build configuration list for PBXNativeTarget "readeck Extension (iOS)" */;
+			buildPhases = (
+				5D27D2C62E4B6A85004B26F8 /* Sources */,
+				5D27D2C72E4B6A85004B26F8 /* Frameworks */,
+				5D27D2C82E4B6A85004B26F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "readeck Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "readeck Extension (iOS)";
+			productReference = 5D27D2CA2E4B6A85004B26F8 /* readeck Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		5D27D2D32E4B6A85004B26F8 /* readeck Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D27D2F22E4B6A85004B26F8 /* Build configuration list for PBXNativeTarget "readeck Extension (macOS)" */;
+			buildPhases = (
+				5D27D2D02E4B6A85004B26F8 /* Sources */,
+				5D27D2D12E4B6A85004B26F8 /* Frameworks */,
+				5D27D2D22E4B6A85004B26F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "readeck Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "readeck Extension (macOS)";
+			productReference = 5D27D2D42E4B6A85004B26F8 /* readeck Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D27D2982E4B6A83004B26F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					5D27D2AA2E4B6A84004B26F8 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					5D27D2BC2E4B6A85004B26F8 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					5D27D2C92E4B6A85004B26F8 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					5D27D2D32E4B6A85004B26F8 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 5D27D29B2E4B6A83004B26F8 /* Build configuration list for PBXProject "readeck" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D27D2972E4B6A83004B26F8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5D27D2AC2E4B6A84004B26F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D27D2AA2E4B6A84004B26F8 /* readeck (iOS) */,
+				5D27D2BC2E4B6A85004B26F8 /* readeck (macOS) */,
+				5D27D2C92E4B6A85004B26F8 /* readeck Extension (iOS) */,
+				5D27D2D32E4B6A85004B26F8 /* readeck Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D27D2A92E4B6A84004B26F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D27D2DD2E4B6A85004B26F8 /* Icon.png in Resources */,
+				5D27D2B42E4B6A84004B26F8 /* LaunchScreen.storyboard in Resources */,
+				5D27D2DB2E4B6A85004B26F8 /* Main.html in Resources */,
+				5D27D2E12E4B6A85004B26F8 /* Script.js in Resources */,
+				5D27D2E52E4B6A85004B26F8 /* Assets.xcassets in Resources */,
+				5D27D2B72E4B6A84004B26F8 /* Main.storyboard in Resources */,
+				5D27D2DF2E4B6A85004B26F8 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D27D2BB2E4B6A85004B26F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D27D2DE2E4B6A85004B26F8 /* Icon.png in Resources */,
+				5D27D2E02E4B6A85004B26F8 /* Style.css in Resources */,
+				5D27D2C32E4B6A85004B26F8 /* Main.storyboard in Resources */,
+				5D27D2E22E4B6A85004B26F8 /* Script.js in Resources */,
+				5D27D2E62E4B6A85004B26F8 /* Assets.xcassets in Resources */,
+				5D27D2DC2E4B6A85004B26F8 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D27D2C82E4B6A85004B26F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D27D30B2E4B6A85004B26F8 /* action in Resources */,
+				5D27D30A2E4B6A85004B26F8 /* icon96.png in Resources */,
+				5D27D30C2E4B6A85004B26F8 /* manifest.json in Resources */,
+				5D27D30D2E4B6A85004B26F8 /* settings.html in Resources */,
+				5D27D3092E4B6A85004B26F8 /* icon48.png in Resources */,
+				5D27D30E2E4B6A85004B26F8 /* logo.svg in Resources */,
+				5D27D3082E4B6A85004B26F8 /* dist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D27D2D22E4B6A85004B26F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D27D3042E4B6A85004B26F8 /* action in Resources */,
+				5D27D3032E4B6A85004B26F8 /* icon96.png in Resources */,
+				5D27D3052E4B6A85004B26F8 /* manifest.json in Resources */,
+				5D27D3062E4B6A85004B26F8 /* settings.html in Resources */,
+				5D27D3022E4B6A85004B26F8 /* icon48.png in Resources */,
+				5D27D3072E4B6A85004B26F8 /* logo.svg in Resources */,
+				5D27D3012E4B6A85004B26F8 /* dist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D27D2A72E4B6A84004B26F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D27D2E32E4B6A85004B26F8 /* ViewController.swift in Sources */,
+				5D27D2AF2E4B6A84004B26F8 /* AppDelegate.swift in Sources */,
+				5D27D2B12E4B6A84004B26F8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D27D2B92E4B6A85004B26F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D27D2E42E4B6A85004B26F8 /* ViewController.swift in Sources */,
+				5D27D2C02E4B6A85004B26F8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D27D2C62E4B6A85004B26F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D27D2E72E4B6A85004B26F8 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D27D2D02E4B6A85004B26F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D27D2E82E4B6A85004B26F8 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D27D2CD2E4B6A85004B26F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D27D2C92E4B6A85004B26F8 /* readeck Extension (iOS) */;
+			targetProxy = 5D27D2CC2E4B6A85004B26F8 /* PBXContainerItemProxy */;
+		};
+		5D27D2D72E4B6A85004B26F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D27D2D32E4B6A85004B26F8 /* readeck Extension (macOS) */;
+			targetProxy = 5D27D2D62E4B6A85004B26F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D27D29E2E4B6A83004B26F8 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D27D29F2E4B6A83004B26F8 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		5D27D2B22E4B6A84004B26F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D27D2B32E4B6A84004B26F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5D27D2B52E4B6A84004B26F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D27D2B62E4B6A84004B26F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D27D2C12E4B6A85004B26F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D27D2C22E4B6A85004B26F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D27D2E92E4B6A85004B26F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D27D2EA2E4B6A85004B26F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5D27D2EC2E4B6A85004B26F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8J69P655GN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "readeck Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.ilyashallak.readeck-safari.extension";
+				PRODUCT_NAME = "readeck Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D27D2ED2E4B6A85004B26F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8J69P655GN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "readeck Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.ilyashallak.readeck-safari.extension";
+				PRODUCT_NAME = "readeck Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D27D2F02E4B6A85004B26F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8J69P655GN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = readeck;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.ilyashallak.readeck-safari";
+				PRODUCT_NAME = readeck;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D27D2F12E4B6A85004B26F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8J69P655GN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = readeck;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.ilyashallak.readeck-safari";
+				PRODUCT_NAME = readeck;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D27D2F32E4B6A85004B26F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/readeck.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8J69P655GN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "readeck Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.ilyashallak.readeck-safari.extension";
+				PRODUCT_NAME = "readeck Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5D27D2F42E4B6A85004B26F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/readeck.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8J69P655GN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "readeck Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.ilyashallak.readeck-safari.extension";
+				PRODUCT_NAME = "readeck Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5D27D2F72E4B6A85004B26F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/readeck.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8J69P655GN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = readeck;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.ilyashallak.readeck-safari";
+				PRODUCT_NAME = readeck;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5D27D2F82E4B6A85004B26F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/readeck.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8J69P655GN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = readeck;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.ilyashallak.readeck-safari";
+				PRODUCT_NAME = readeck;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D27D29B2E4B6A83004B26F8 /* Build configuration list for PBXProject "readeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D27D2E92E4B6A85004B26F8 /* Debug */,
+				5D27D2EA2E4B6A85004B26F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D27D2EB2E4B6A85004B26F8 /* Build configuration list for PBXNativeTarget "readeck Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D27D2EC2E4B6A85004B26F8 /* Debug */,
+				5D27D2ED2E4B6A85004B26F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D27D2EF2E4B6A85004B26F8 /* Build configuration list for PBXNativeTarget "readeck (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D27D2F02E4B6A85004B26F8 /* Debug */,
+				5D27D2F12E4B6A85004B26F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D27D2F22E4B6A85004B26F8 /* Build configuration list for PBXNativeTarget "readeck Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D27D2F32E4B6A85004B26F8 /* Debug */,
+				5D27D2F42E4B6A85004B26F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D27D2F62E4B6A85004B26F8 /* Build configuration list for PBXNativeTarget "readeck (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D27D2F72E4B6A85004B26F8 /* Debug */,
+				5D27D2F82E4B6A85004B26F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D27D2982E4B6A83004B26F8 /* Project object */;
+}
