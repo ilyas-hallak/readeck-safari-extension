@@ -1,9 +1,22 @@
-# Build directory (contains cloned repository)
+# Build directory (contains cloned repository from Codeberg)
 .build/
 
 # Xcode user data (keep project structure, ignore user-specific data)
 safari-extension/readeck/readeck.xcodeproj/project.xcworkspace/xcuserdata/
 safari-extension/readeck/readeck.xcodeproj/xcuserdata/
+
+# Xcode build artifacts
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+timeline.xctimeline
+playground.xcworkspace
+Carthage/Build/
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
 
 # macOS
 .DS_Store
