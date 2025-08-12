@@ -1,0 +1,65 @@
+{
+  "manifest_version": 3,
+  "name": "readeck",
+  "version": "2.4.6",
+  "description": "Readeck browser extension",
+  "author": "Olivier Meunier <olivier@readeck.com>",
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "scripts": [
+      "dist/background.js"
+    ]
+  },
+  "content_scripts": [],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'"
+  },
+  "action": {
+    "default_title": "Readeck",
+    "default_icon": {
+      "48": "icon48.png"
+    },
+    "default_area": "navbar",
+    "default_popup": "action/index.html"
+  },
+  "commands": {
+    "_execute_action": {
+      "description": "Toggle Readeck",
+      "suggested_key": {
+        "default": "Alt+Shift+R"
+      }
+    },
+    "save": {
+      "description": "Save the current page to Readeck",
+      "suggested_key": {
+        "default": "Alt+Shift+W"
+      }
+    }
+  },
+  "icons": {
+    "48": "icon48.png",
+    "96": "icon96.png"
+  },
+  "options_ui": {
+    "page": "settings.html",
+    "open_in_tab": false
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "readeck@readeck.com",
+      "strict_min_version": "115.0"
+    },
+    "gecko_android": {
+      "strict_min_version": "115.0"
+    }
+  }
+}
