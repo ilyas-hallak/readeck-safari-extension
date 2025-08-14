@@ -27,8 +27,6 @@
 		5D27D2E42E4B6A85004B26F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D27D2A32E4B6A83004B26F8 /* ViewController.swift */; };
 		5D27D2E52E4B6A85004B26F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D2A42E4B6A84004B26F8 /* Assets.xcassets */; };
 		5D27D2E62E4B6A85004B26F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D2A42E4B6A84004B26F8 /* Assets.xcassets */; };
-		5D27D2E72E4B6A85004B26F8 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D27D2A62E4B6A84004B26F8 /* SafariWebExtensionHandler.swift */; };
-		5D27D2E82E4B6A85004B26F8 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D27D2A62E4B6A84004B26F8 /* SafariWebExtensionHandler.swift */; };
 		5D27D3012E4B6A85004B26F8 /* dist in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D2FA2E4B6A85004B26F8 /* dist */; };
 		5D27D3022E4B6A85004B26F8 /* icon48.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D2FB2E4B6A85004B26F8 /* icon48.png */; };
 		5D27D3032E4B6A85004B26F8 /* icon96.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D2FC2E4B6A85004B26F8 /* icon96.png */; };
@@ -43,6 +41,8 @@
 		5D27D30C2E4B6A85004B26F8 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D2FE2E4B6A85004B26F8 /* manifest.json */; };
 		5D27D30D2E4B6A85004B26F8 /* settings.html in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D2FF2E4B6A85004B26F8 /* settings.html */; };
 		5D27D30E2E4B6A85004B26F8 /* logo.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5D27D3002E4B6A85004B26F8 /* logo.svg */; };
+		5D27D3102E4B6A85004B26F8 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D27D30F2E4B6A85004B26F8 /* SafariWebExtensionHandler.swift */; };
+		5D27D3112E4B6A85004B26F8 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D27D30F2E4B6A85004B26F8 /* SafariWebExtensionHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,7 +94,6 @@
 		5D27D2A22E4B6A83004B26F8 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
 		5D27D2A32E4B6A83004B26F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5D27D2A42E4B6A84004B26F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5D27D2A62E4B6A84004B26F8 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		5D27D2AB2E4B6A84004B26F8 /* readeck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = readeck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D27D2AE2E4B6A84004B26F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D27D2B02E4B6A84004B26F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,13 +110,14 @@
 		5D27D2D42E4B6A85004B26F8 /* readeck Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "readeck Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D27D2D92E4B6A85004B26F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D27D2DA2E4B6A85004B26F8 /* readeck.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = readeck.entitlements; sourceTree = "<group>"; };
-		5D27D2FA2E4B6A85004B26F8 /* dist */ = {isa = PBXFileReference; lastKnownFileType = folder; name = dist; path = ../../../addon/dist; sourceTree = "<group>"; };
-		5D27D2FB2E4B6A85004B26F8 /* icon48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon48.png; path = ../../../addon/icon48.png; sourceTree = "<group>"; };
-		5D27D2FC2E4B6A85004B26F8 /* icon96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon96.png; path = ../../../addon/icon96.png; sourceTree = "<group>"; };
-		5D27D2FD2E4B6A85004B26F8 /* action */ = {isa = PBXFileReference; lastKnownFileType = folder; name = action; path = ../../../addon/action; sourceTree = "<group>"; };
-		5D27D2FE2E4B6A85004B26F8 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../../addon/manifest.json; sourceTree = "<group>"; };
-		5D27D2FF2E4B6A85004B26F8 /* settings.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = settings.html; path = ../../../addon/settings.html; sourceTree = "<group>"; };
-		5D27D3002E4B6A85004B26F8 /* logo.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = logo.svg; path = ../../../addon/logo.svg; sourceTree = "<group>"; };
+		5D27D2FA2E4B6A85004B26F8 /* dist */ = {isa = PBXFileReference; lastKnownFileType = folder; name = dist; path = ../../../.build/addon/dist; sourceTree = "<group>"; };
+		5D27D2FB2E4B6A85004B26F8 /* icon48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon48.png; path = ../../../.build/addon/icon48.png; sourceTree = "<group>"; };
+		5D27D2FC2E4B6A85004B26F8 /* icon96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon96.png; path = ../../../.build/addon/icon96.png; sourceTree = "<group>"; };
+		5D27D2FD2E4B6A85004B26F8 /* action */ = {isa = PBXFileReference; lastKnownFileType = folder; name = action; path = ../../../.build/addon/action; sourceTree = "<group>"; };
+		5D27D2FE2E4B6A85004B26F8 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../../.build/addon/manifest.json; sourceTree = "<group>"; };
+		5D27D2FF2E4B6A85004B26F8 /* settings.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = settings.html; path = ../../../.build/addon/settings.html; sourceTree = "<group>"; };
+		5D27D3002E4B6A85004B26F8 /* logo.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = logo.svg; path = ../../../.build/addon/logo.svg; sourceTree = "<group>"; };
+		5D27D30F2E4B6A85004B26F8 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,8 +189,8 @@
 		5D27D2A52E4B6A84004B26F8 /* Shared (Extension) */ = {
 			isa = PBXGroup;
 			children = (
+				5D27D30F2E4B6A85004B26F8 /* SafariWebExtensionHandler.swift */,
 				5D27D2F92E4B6A85004B26F8 /* Resources */,
-				5D27D2A62E4B6A84004B26F8 /* SafariWebExtensionHandler.swift */,
 			);
 			path = "Shared (Extension)";
 			sourceTree = "<group>";
@@ -472,7 +472,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D27D2E72E4B6A85004B26F8 /* SafariWebExtensionHandler.swift in Sources */,
+				5D27D3102E4B6A85004B26F8 /* SafariWebExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,7 +480,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D27D2E82E4B6A85004B26F8 /* SafariWebExtensionHandler.swift in Sources */,
+				5D27D3112E4B6A85004B26F8 /* SafariWebExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -718,7 +718,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 8J69P655GN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
@@ -756,7 +756,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 8J69P655GN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
@@ -863,7 +863,7 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/readeck.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 8J69P655GN;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -901,7 +901,7 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/readeck.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 8J69P655GN;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;

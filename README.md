@@ -1,17 +1,17 @@
 # Readeck Safari Extension
 
-This repository contains the Safari extension version of the [Readeck browser extension](https://codeberg.org/readeck/browser-extension), which provides a seamless way to save articles and web content to your Readeck instance.
+This repository contains the Safari extension version of the [Readeck browser extension](https://codeberg.org/readeck/browser-extension), which provides a seamless way to save articles and web content to your Readeck instance on **macOS and iOS**.
 
 ## About
 
 The Readeck browser extension is available for:
 - 🦊 **Firefox** (original extension)
 - 🌐 **Chrome** (original extension) 
-- 🍎 **Safari** (this repository - coming soon!)
+- 🍎 **Safari** (this repository - macOS & iOS)
 
 The Safari extension will be available through:
-- 📱 **Public Beta** (coming soon)
-- 🏪 **Mac App Store** (coming soon)
+- 📱 **Public Beta**: [Join TestFlight](https://testflight.apple.com/join/fk745B93) (macOS & iOS)
+- 🏪 **Mac App Store** (coming soon) (macOS & iOS)
 
 ## Build Instructions
 

@@ -73,13 +73,26 @@ fi
 # Step 3: Build the extension
 echo "🔨 Building extension..."
 if [ "$VERBOSE" = true ]; then
-    make
+    make TARGET_BROWSER=chrome source-build
 else
-    make >/dev/null 2>&1
+    make TARGET_BROWSER=chrome source-build >/dev/null 2>&1
 fi
 cd ..
 
-# Step 4: Generate or update Safari extension
+# Step 4: Copy custom manifest.json from project root
+echo "📄 Copying custom manifest.json..."
+if [ -f "manifest.json" ]; then
+    if [ "$VERBOSE" = true ]; then
+        cp "manifest.json" "$BUILD_DIR/addon/"
+    else
+        cp "manifest.json" "$BUILD_DIR/addon/" >/dev/null 2>&1
+    fi
+    echo "✅ Custom manifest.json copied to build directory"
+else
+    echo "⚠️  No custom manifest.json found in project root"
+fi
+
+# Step 5: Generate or update Safari extension
 if [ -d "$SAFARI_EXTENSION_DIR" ]; then
     echo "🍎 Safari extension already exists - keeping project settings..."
     echo "🔄 Copying updated web extension files..."
